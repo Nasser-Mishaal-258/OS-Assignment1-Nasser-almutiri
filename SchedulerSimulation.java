@@ -39,7 +39,8 @@ class Process implements Runnable {
         this.timeQuantum = timeQuantum;
         this.remainingTime = burstTime; // Initially, remaining time is equal to the burst time
         // Feature 1
-        this.priority = 1 + new Random().nextInt(5);
+        this.priority = 1 + new Random().nextInt(5); // generates random number from 1 to 5 and assigns it as process
+                                                     // priority
     }
 
     // This method will be called when the thread for this process is started
@@ -144,7 +145,7 @@ class Process implements Runnable {
 
     // Feature 1
     public int getPriority() {
-        return priority;
+        return priority; // returns the priority value of the process
     }
 
     // Check if the process has finished (i.e., no remaining time)
@@ -312,6 +313,7 @@ public class SchedulerSimulation {
                 Colors.RESET + Colors.BLUE + " added to ready queue" + Colors.RESET +
                 " │ Burst time: " + Colors.YELLOW + process.getBurstTime() + "ms" +
                 Colors.RESET // Feature 1
-                + " │ Priority : " + Colors.GREEN + process.getPriority());
+                + " │ Priority : " + Colors.GREEN + process.getPriority()); // prints process name along with its
+                                                                            // priority when added to ready queue
     }
 }
