@@ -32,68 +32,68 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
-### Entry 1 - [Date and Time]
-**What I did**: 
+### Entry 1 - [March 25, 2026, 3:00 PM]
+**What I did**: i setup github and understanding the code
 
-**Details**: 
+**Details**: Forked the repository from GitHub
 
-**Challenges**: 
+**Challenges**: The code looked long and I didn’t understand how scheduling works at first
 
-**Solution**: 
+**Solution**: I read the comments carefully and followed the execution step by step 
 
-**Time spent**: 
-
----
-
-### Entry 2 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+**Time spent**: about 3 hours
 
 ---
 
-### Entry 3 - [Date and Time]
+### Entry 2 - [March 26, 2026, 2:30 PM]
 **What I did**: 
 
-**Details**: 
+**Details**: Added priority variable to Process class
 
-**Challenges**: 
+**Challenges**: I was confused about where can i display the priority
 
-**Solution**: 
+**Solution**: Fixed the code to correctly handle and use the priority variable in the process.
 
-**Time spent**: 
+**Time spent**: 1 hour maybe
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**: 
+### Entry 3 - [March 27, 2026, 8:00 PM]
+**What I did**: Implemented Feature 2 (Context Switch Counter)
 
-**Details**: 
+**Details**: Printed total context switches at the end
 
-**Challenges**: 
+**Challenges**: I wasn’t sure when exactly a context switch happens
 
-**Solution**: 
+**Solution**: I understood that it happens when CPU switches from one process to another
 
-**Time spent**: 
+**Time spent**: 1 hour
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**: 
+### Entry 4 - [March 28, 2026, 8:00 AM]
+**What I did**: Implemented Feature 3 (Waiting Time)
 
-**Details**: 
+**Details**: Added creationTime and waitingTime variables
 
-**Challenges**: 
+**Challenges**: Waiting time calculation was confusing at first
 
-**Solution**: 
+**Solution**: I used a simple formula that you suggest System.currentTimeMillis()
 
-**Time spent**: 
+**Time spent**: 1 hour 
+
+---
+
+### Entry 5 - [March 29, 2026, 4:00 PM]
+**What I did**: Testing and final adjustments
+
+**Details**: Tested all features together and reviewed assignment requirements
+
+**Challenges**: Ensuring all features work together without errors
+
+**Solution**: Tested multiple times and checked each feature step by step
+
+**Time spent**: 40 min to 1 hour  
 
 ---
 
@@ -112,10 +112,10 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Summary
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [6 hours and 40 to 7 hours ]
 
-**Most challenging part**: 
+**Most challenging part**: setting up gethub and connect it to VS and trying to let the output out in the VS was complicted for me to be honest 
 
-**Most interesting learning**: 
+**Most interesting learning**: everything especially How Round Robin scheduling works 
 
-**What I would do differently next time**: 
+**What I would do differently next time**: Start earlier and test more frequently
