@@ -46,7 +46,7 @@ Document your development process as you work on the assignment. Add entries sho
 ---
 
 ### Entry 2 - [March 26, 2026, 2:30 PM]
-**What I did**: 
+**What I did**: Worked on Feature 1 (Priority)
 
 **Details**: Added priority variable to Process class
 
